@@ -77,10 +77,6 @@ class Consumer(
             connectionMonitor.start()
         }
     }
-
-    fun reopen() {
-        connection.reopen()
-    }
     
     /**
      * Disconnect the underlying connection.
